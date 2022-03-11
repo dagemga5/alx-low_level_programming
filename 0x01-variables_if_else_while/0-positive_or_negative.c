@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.c
- * Auth: Dagem Getachews
+ * Auth: Dagem Getachew
  */
 
 #include <stdlib.h>

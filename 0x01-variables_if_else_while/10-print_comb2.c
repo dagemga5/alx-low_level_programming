@@ -1,6 +1,6 @@
 /*
  * File: 10-print_comb2.c
- * Auth: Brennan D Baraban
+ * Auth: Dagem Getachew
  */
 
 #include <stdio.h>
@@ -24,7 +24,7 @@ int main(void)
 
 			if (digit1 == 9 && digit2 == 9)
 				continue;
-			
+
 			putchar(',');
 			putchar(' ');
 		}
