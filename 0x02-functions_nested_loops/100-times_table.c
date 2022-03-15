@@ -3,7 +3,7 @@
  * Auth: Dagem
  */
 
-#include "alx.h"
+#include "main.h"
 
 /**
  * print_times_table - Prints the times table of the input,
