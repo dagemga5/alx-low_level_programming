@@ -3,7 +3,7 @@
  * Auth: Dagem
  */
 
-#include "alx.h"
+#include "main.h"
 
 /**
  * _islower - Checks if a character is lowercase.
