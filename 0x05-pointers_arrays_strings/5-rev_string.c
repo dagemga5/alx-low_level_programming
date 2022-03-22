@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * rev_string - check the code for Holberton School students.
+ * rev_string - check the code.
  * @s: variable.
  */
 

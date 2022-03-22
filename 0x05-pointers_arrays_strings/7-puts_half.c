@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * puts_half - check the code for Holberton School students.
+ * puts_half - check the code.
  * @str: variable.
  */
 void puts_half(char *str)

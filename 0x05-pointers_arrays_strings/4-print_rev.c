@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev - check the code for Holberton School students.
+ * print_rev - check the code.
  * @s: variable.
  */
 void print_rev(char *s)
