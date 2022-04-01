@@ -1,11 +1,13 @@
 #include "main.h"
+
 /**
- *_memset - fill memory with constant byte
- *@s: s
- *@b: b
- *@n: n
- *Return: pointer to object
+ * _memset - ironnou
+ * @s: pointer to char params
+ * @b: data to change
+ * @n: index
+ * Return: *s
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
@@ -13,6 +15,6 @@ char *_memset(char *s, char b, unsigned int n)
 	for (i = 0; i < n; i++)
 	{
 		s[i] = b;
-			}
+	}
 	return (s);
 }

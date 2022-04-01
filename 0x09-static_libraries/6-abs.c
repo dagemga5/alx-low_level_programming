@@ -1,16 +1,18 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
-* _abs - check positive, negative or zero
-* @n: the number to be checked
-*
-* Return: return absolute value
-*/
+ * _abs - check the code for Holberton School students.
+ *
+ * @n: is an integer argument
+ *
+ * Return: Always 0.
+ */
+
 int _abs(int n)
 {
-if (n >= 0)
-{
-return (n);
-}
-return (n * -1);
+	if (n >= 0)
+	{
+		return (n);
+	}
+	return (-n);
 }
