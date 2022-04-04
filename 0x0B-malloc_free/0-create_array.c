@@ -1,24 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- * create_array - create array
- * @size: size
- * @c: constant
- * Return: char pointer
+/*
+ * File: 0-malloc_checked.c
+ * Auth: Dagem
  */
-char *create_array(unsigned int size, char c)
-{
-	char *p;
-	unsigned int i;
 
-	if (size == 0)
-	return (0);
-	p = malloc((size) * sizeof(char));
-	if (p == '\0')
-	return (0);
-	for (i = 0; i < size; i++)
-	{
-		p[i] = c;
-	}
-return (p);
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * malloc_checked - Allocates memory using malloc.
+ * @b: The number of bytes to be allocated.
+ *
+ * Return: A pointer to the allocated memory.
+ */
+void *malloc_checked(unsigned int b)
+{
+	void *mem = malloc(b);
+
+	if (mem == NULL)
+		exit(98);
+
+	return (mem);
 }
